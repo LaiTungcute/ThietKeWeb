@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+body {
+    background-color: rgba(122, 182, 252, 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 800px;
+    height: 300px;
+    background-image: url('https://scontent.fhan19-1.fna.fbcdn.net/v/t39.30808-6/298580834_1283045165436373_4550234756388469676_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=RSdWC0m247EAX-uBuAt&_nc_ht=scontent.fhan19-1.fna&oh=00_AT_1uCe9LuTknV5g8iVvmPNtxAVdg8RqpqZOz4E_A3xH1w&oe=63124321');
+    background-color: rgb(198, 214, 232);
+    background-size: 100% 100%;
+    border-radius: 30px;
+    margin: 30vh auto;
+    box-shadow: 2px -2px 20px rgb(30, 111, 204);
+}
+
+input {
+    color: red;
+    background-color: pink;
+    padding: 10px;
+    width: 50%;
+    margin: 20% 25% 0  25%;
+    border-radius: 20px;
+}
+
+input::-webkit-input-placeholder {
+    color: red;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 45% 0 45%;
+}

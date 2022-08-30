@@ -1,0 +1,31 @@
+/* .container {
+    background-color: black;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: aqua;
+}
+
+#world {
+    color: antiquewhite;
+}
+
+.hello {
+    color: blueviolet;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    border: 10px solid #000;
+    margin: 10px;
+    padding: 20px 10px 40px 30px;
+}
