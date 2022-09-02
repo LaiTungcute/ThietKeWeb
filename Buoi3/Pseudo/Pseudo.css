@@ -1,0 +1,55 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    cursor: pointer;
+}
+
+/*pseudo class (lớp giả)*/
+.box:hover {
+    background-color: red;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+/*Pseudo element (phần tử giả)*/
+
+h1::before {
+    content: 'Good morning';
+}
+
+h1::after {
+    content: 'Good morning';
+}
+
+.cha {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.con {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+}
+
+/*pseudo class*/
+.cha .con:first-child {
+    background-color: blueviolet;
+}
+
+.cha .con:nth-child(2) {
+    background-color: yellowgreen;
+}
+
+.cha .con:nth-child(3) {
+    background-color: yellow;
+}
+
+.cha .con:last-child {
+    background-color: antiquewhite;
+}
