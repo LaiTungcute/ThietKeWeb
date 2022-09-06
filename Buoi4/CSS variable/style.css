@@ -1,0 +1,32 @@
+/* Cách tạo biến */
+:root {
+    --color: red;
+    --size: 20px;
+}
+
+.hello1 {
+    /* Cách khai triển biến */
+    color: var(--color);
+    font-size: calc(100px - var(--size)); /* Khai triển 1 phép tính */
+}
+
+.hello2 {
+    color: var(--color);
+}
+
+.hello {
+    /* width: 500px; */
+    height: 500px;
+    background-image: url(../../img/ngau1tuoi.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    display: flex;
+    /* flex-direction: ; */
+    /* justify-content: ; */
+    /* align-items: ; */
+    /* align-self: ; */
+    /* align-content: ; */
+    /* flex-wrap: ; */
+    /* flex-flow: ; */
+    /* order: ; */
+}

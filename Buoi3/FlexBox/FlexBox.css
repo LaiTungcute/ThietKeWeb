@@ -1,7 +1,7 @@
 .container {
     height: 100vh;
     display: flex;
-   /* flex-direction: column; /*Hướng chính */
+   /* flex-direction: column;*/ /*Hướng chính */
     justify-content: space-evenly; /*Xét theo trục chính*/
     align-items: flex-start; /*Xét theo trục phụ*/
     flex-wrap: wrap-reverse;
